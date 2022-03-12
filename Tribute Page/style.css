@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    font-family: 'Roboto', sans-serif;
+}
+cite{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+.bg-color{
+    background: #E8E8E8;
+    margin: 20px 10px;
+    height: auto;
+    max-width: 100vw;
+    width: 100%;
+}
+.main-text{
+    text-align: center;
+    padding: 28px;
+}
+.page-title{
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.page-sub-text{
+    font-family: 'Open Sans', sans-serif;
+}
+.img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 75vw;
+    background: #fff;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.main-img{
+    margin: 0 auto;
+    padding: 20px 20px;
+    width: 100%;
+}
+.img-text{
+    padding: 15px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+#tribute-info{
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.timeline{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 550px;
+}
+.timeline-info{
+    text-align: justify;
+    margin-top: 25px;
+}
+.quote{
+    margin: 0 auto;
+    max-width: 550px;
+}
+.main-quote{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.footer-text{
+    text-align: center;
+    padding: 30px;
+}
+
+/*Media queries*/
+@media (max-width: 860px){
+    .img-text{
+        margin: 0 auto;
+        text-align: center;
+    }
+}
